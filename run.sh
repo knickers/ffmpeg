@@ -3,7 +3,7 @@ set -e
 
 if [[ ${#@} -lt 1 ]]; then
 	echo 'Usage:'
-	echo '    e.g. run.sh -t <duration> -ss <start at hh:mm:ss> -i <inpit file> out%04d.gif'
+	echo '    ./run.sh -i <input file> -ss <start at hh:mm:ss> -t <duration> out%04d.gif'
 	exit 1
 fi
 
